@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+
+</script>
+
+<svelte:head>
+  <title>ค | Kor</title>
+</svelte:head>
+
+<main>
+  <div id="kor">
+    ค
+  </div>
+</main>
+
+<style>
+  #kor {
+    font-size: 12rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14rem;
+  }
+</style>
